@@ -18,3 +18,12 @@ function depthFirstSearch(rootNode, vertices, edges){
   }
 
 };
+
+
+function findAdjacent(verticeName, vertices, edges){
+  const adjacentNames = edges.filter(edge => {
+    return edge.includes(verticeName);
+  }).map(edge => {
+    return edge.find(name => name != verticeName);
+  }) 
+};
