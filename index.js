@@ -16,7 +16,7 @@ function depthFirstSearch(rootNode, vertices, edges){
       });
     };
   };
-
+ return visited;
 };
 
 
