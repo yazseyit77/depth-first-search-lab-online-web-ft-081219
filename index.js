@@ -13,9 +13,9 @@ function depthFirstSearch(rootNode, vertices, edges){
       adjacentVertices.forEach(vert => {
         visited.push(vert);
         store.push(vert);
-      })
-    }
-  }
+      });
+    };
+  };
 
 };
 
