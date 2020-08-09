@@ -25,5 +25,5 @@ function findAdjacent(verticeName, vertices, edges){
     return edge.includes(verticeName);
   }).map(edge => {
     return edge.find(name => name != verticeName);
-  }) 
+  });
 };
